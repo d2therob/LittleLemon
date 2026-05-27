@@ -1,29 +1,3 @@
 
 Hello World
-
-!
-qa!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-hello world
+Hello Universe
