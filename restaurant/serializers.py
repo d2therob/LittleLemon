@@ -1,12 +1,13 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
-from .models import Menu, Booking
+from .models import Booking
+from LittleLemonAPI.models import MenuItem
 
 class MenuSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = User
-        fields = ['url', 'username', 'email', 'groups']
+        model = MenuItem
+        fields = '__all__'
 
 
 class BookingSerializer(serializers.ModelSerializer):

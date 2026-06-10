@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+workspace/
+venv/
+
+# macOS
+.DS_Store
+
+# Database (if you use SQLite)
+db.sqlite3
